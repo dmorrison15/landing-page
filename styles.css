@@ -1,0 +1,175 @@
+* {
+    background-color: #1f2937;
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/* Header section - links and logo*/
+.header {
+    display:flex;  
+    justify-content: space-between;
+    padding: 1em 10em;      
+}
+.logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+.links-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Section one - text and image placeholder */
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 7em 10em;
+    gap: 2em;
+}
+.main-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+.secondary-text {
+    color: #E5E7EB;
+    
+}
+.image-container {
+    display: flex;                                                
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+}
+.image-container, .image-text {
+    background-color: grey;  
+}
+button {
+    font-size: 20px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-color: #3882f6;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em 10em;
+}
+.random-text-container {
+    display: flex;
+    justify-content: center;
+}
+.random-text {
+    font-size: 36px;
+    font-weight: 900;  
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2em;
+    justify-content: space-evenly;
+
+}
+.box {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    height: 180px;
+    width: 80%;
+    background-color: white;
+}
+.box-text {
+    width: 78%;
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-two, .section-two > *, .section-two > * > * , .box-container, .box-container > *{
+    color: #1f2937;
+    background-color: white;
+}
+
+/* Section three - quote and speaker */
+.section-three, .section-three > * {
+    background-color: #E5E7EB;
+    color: #1f2937;
+}
+.section-three {
+    padding: 5em 12em;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+.speaker {
+    display: flex;
+    font-weight: 800;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+/* Section four - sign up div and button*/
+.section-four {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 4em;
+}
+.sign-up-container {
+    display: flex;
+    gap: 2em;
+    padding: 3em 4em;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+.sign-up-container, .sign-up-container > *, .sign-up-container > * > * {
+    background-color: #3882f6;
+}
+.sign-up-button-container {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+.bold-text {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.sign-up-button {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 0.5em 2em;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
